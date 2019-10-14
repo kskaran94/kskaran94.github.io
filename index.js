@@ -1,14 +1,15 @@
 CLASSES = {
-  0: 'Thinker',
-  1: 'Hamilton',
-  2: 'Great_Pan',
+  0: 'Alexander_Hamilton',
+  1: 'Great_God_Pan',
+  2: 'The_Thinker',
 };
+
 
 const MODEL_PATH =
     'model.json';
 
-const IMAGE_SIZE = 192;
-const TOPK_PREDICTIONS = 5;
+const IMAGE_SIZE = 150;
+const TOPK_PREDICTIONS = 3;
 
 let my_model;
 const demo = async () => {
